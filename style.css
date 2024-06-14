@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #1e1f22;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(/GeracaoTech/projetos/CardapioDigital/img/bg.png);
+    /* descomentar para aplicar imagem sem repetição */
+    /* background-repeat: repeat;
+    background-size: cover; */
+}
