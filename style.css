@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     color: white;
+}
+
+:root{
+    --corBotoesH2Texto: #ffae00;
+    --arredondamentoBordas: 10px;
+    --minhaFonte: "Roboto", sans-serif;
 }
 
 header{
@@ -17,9 +25,11 @@ nav a{
     color: white;
     margin: 0px 10px;
     text-decoration: none;
+    font-family: var(--minhaFonte);
 }
 
 body{
+    font-family: var(--minhaFonte);
     text-align: center;
     background-image: url(/GeracaoTech/projetos/CardapioDigital/img/bg.png);
     /* descomentar para aplicar imagem sem repetição */
@@ -36,20 +46,20 @@ h1{
 }
 
 h2{
-    color: #ffae00;
+    color: var(--corBotoesH2Texto);
     text-align: center;
     text-transform: uppercase;
 }
 
 h1, h2, h3{
-    margin: 10px 0px;
+    margin: 15px 0px;
 }
 
 .boxProduto{
     background-color: rgba(37, 37, 37, 0.8);
     width: 850px;
     margin: auto;
-    border-radius: 10px;
+    border-radius: var(--arredondamentoBordas);
 }
 
 .imgProduto{
@@ -69,9 +79,9 @@ vertical-align: middle;
 
 button{
     cursor: pointer;
-    background-color: #ffae00;
+    background-color: var(--corBotoesH2Texto);
     border: none;
-    border-radius: 10px;
+    border-radius: var(--arredondamentoBordas);
     padding: 15px;
     width: 150px;
     margin-top: 10px;
