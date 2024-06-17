@@ -2,22 +2,77 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: white;
 }
 
 header{
     background-color: #1e1f22;
     text-align: center;
+    padding: 15px;
 }
 
 nav a{
+    font-weight: bold;
+    font-size: 20px;
     color: white;
     margin: 0px 10px;
     text-decoration: none;
 }
 
 body{
+    text-align: center;
     background-image: url(/GeracaoTech/projetos/CardapioDigital/img/bg.png);
     /* descomentar para aplicar imagem sem repetição */
     /* background-repeat: repeat;
     background-size: cover; */
+}
+
+.logo{
+width: 250px;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+h2{
+    color: #ffae00;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1, h2, h3{
+    margin: 10px 0px;
+}
+
+.boxProduto{
+    background-color: rgba(37, 37, 37, 0.8);
+    width: 850px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.imgProduto{
+    width: 400px;
+}
+
+.boxImg, .boxTexto{
+display: inline-block;
+vertical-align: middle;
+}
+
+.boxTexto{
+    width: 400px;
+    text-align: start;
+
+}
+
+button{
+    cursor: pointer;
+    background-color: #ffae00;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 150px;
+    margin-top: 10px;
 }
